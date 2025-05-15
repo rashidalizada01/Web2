@@ -1,0 +1,51 @@
+String:
+
+1.index
+2.count
+3.len
+4.startswith
+5.endswith
+6.strip
+7.split
+8.replace
+9.removesuffix
+10.removeprefix
+
+Integer:
+
+1.abs
+2.pow
+3.round
+4.format([fill][align][width][.precision][type])
+5.ord()
+6.chr()
+
+List Functions and Loop:
+
+1.append
+2.insert
+3.remove
+4.pop
+5.del
+6.range(print with*)
+7.for
+8.while
+
+Set:
+
+1.add
+2.pop
+3.remove /discard
+4.union,intersection,difference
+
+Tuple:
+1.append
+2.del
+
+Functions and Exceptions:
+
+1.function and arguments (positional, *args, *kwargs)
+2.built-in functions, local variables, global variables
+3.pass, break, return
+4.try, except, else, finally
+5.modules

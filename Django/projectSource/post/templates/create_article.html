@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create New Article</title>
+</head>
+<body>
+<p>
+    <a href="{% url 'list_articles' %}">Back to list articles</a>
+</p>
+<form method="POST">
+    {% csrf_token %}
+    <p>
+        <label>Title</label>
+        <input type="text" name="title">
+    </p>
+    <p>
+        <label>Description</label>
+        <input type="text" name="description">
+    </p>
+    <p>
+        <label>Submit</label>
+        <input type="submit" name="create">
+    </p>
+
+</form>
+</body>
+</html>
